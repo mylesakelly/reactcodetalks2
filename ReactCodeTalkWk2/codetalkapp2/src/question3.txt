@@ -1,0 +1,12 @@
+To make both MyButton components display the same count and update together, you need to move the state from each individual button to the parent component that contains both buttons, 
+so that the both buttons can share the same state.
+In React, you can use hooks like useState and useEffect to manage state and side effects in function components. 
+In the past, stateful logic was only possible in class components, but hooks now allow you to use state in functional components as well.
+Hooks also allow you to share reusable stateful logic between components. 
+You can extract common logic into custom hooks and use them in multiple components, making your code more modular and easier to maintain.
+
+Using hooks also simplifies your code compared to class components. 
+Hooks allow you to not have to worry about the this keyword, binding event handlers, or connecting lifecycle methods.
+Hooks provide a more concise and straightforward way to manage state and perform side effects.
+Also, hooks are exclusive to function components and cannot be used in class components. 
+Hooks were introduced as an alternative and provide more flexibility in managing state and side effects.
